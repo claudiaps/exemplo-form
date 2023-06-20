@@ -1,0 +1,23 @@
+.container {
+    background-color: rgb(167, 233, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(104, 217, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.errorMessage {
+    color: red;
+}
